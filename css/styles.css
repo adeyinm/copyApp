@@ -43,14 +43,14 @@ top: 50px;
 
 *{
     font-family: 'bai Jamjuree', sans-serif;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 
 h1,h2,h3,h4,h5,h6{
-    color: #4b545c;
+    color: royalblue;
 }
 p,a{
-    color: gray !important;
+    color: yellowgreen !important;
 }
 i{
     font-size: 3rem;
