@@ -1,0 +1,32 @@
+h2{
+    text-align: center;
+    color: lavender;
+    margin-bottom: 5px;
+    
+}
+.one{
+    background-color: lightcoral;
+    height: 120px;
+    margin: 20px 50px 10px 50px;
+    padding-top: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: yellow;
+      
+}
+.two{
+    background-color: yellow;
+    height: 300px;
+    margin: 20px 80px;
+    
+}
+.hr-one{
+    width: 70%;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h4{
+    text-align: center;
+    color: lavender;
+    margin-top: 8px;
+    }

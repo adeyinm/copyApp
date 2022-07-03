@@ -1,0 +1,10 @@
+h1{
+    font-size: 1rem;
+}
+
+ol{
+    /* font-size: 20px; */
+    font-size: 20px;
+    list-style-type: armenian;
+    list-style-position: outside;
+}

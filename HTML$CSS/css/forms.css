@@ -1,0 +1,53 @@
+#btn{
+    color: aliceblue;
+    background-color: green;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100px;
+    }
+    #btn:hover{
+        color: white;
+        background-color: red;
+        transition: ease;
+        transition-duration: 2s;
+    }
+    .zip{
+        margin-right: 16px;
+    }
+
+    #bg{
+        background-image: url(../images/bmw.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+@media only screen and (max-width:768px){
+    body{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-image: url(../images/bmw.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px 377px;
+    }
+    .over p::first-letter{
+        color: crimson;
+        font-size: x-large;
+    }
+  }
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+.blue{
+    height: 200px;
+    width: 200px;
+    background-color: blue;  
+}
+.green{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
