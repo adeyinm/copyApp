@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .nav-bar{
+            list-style: none;
+            background: #4c6ca0;
+            overflow: hidden;
+            border-radius: 5px;
+            margin: 0;
+            padding: 0;
+
+        }
+        .nav-bar li{
+            display: block;
+            float: left;
+
+        }
+        .nav-bar li a{
+            display: block;
+            text-decoration: none;
+            /* font-size: 18px; */
+            padding: 15px 20px;
+            color: #fff
+            
+        }
+        .nav-bar li a:hover{
+            background-color: lightslategrey;
+            
+        }
+        .side-menu{
+            list-style: none;
+            border: 1px #ddd solid;
+            border-radius: 5px;
+            width: 300px;
+            padding: 20px;
+            
+        }
+        .side-menu li a{
+            text-decoration: none;
+            line-height: 1.6em;
+            color: #333;
+                        
+        }
+        .side-menu li{
+            margin: 15px 15px;
+            border-bottom: 1px #ddd dotted;
+            font-size: 18px;
+        }
+        .side-menu li a:hover{
+            color: coral;
+        }
+        .side-menu li:last-child{
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav-bar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <br>
+    <ul class="side-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    
+
+</body>
+</html>
